@@ -49,7 +49,7 @@ function Nav() {
                     </button>
                 </ul>
             </div>
-            {nav &&  <div className="absolute w-full top-0 left-0 h-screen bg-gray-200 z-100 backdrop:blur-2xl">
+            {nav &&  <div className="md:hidden absolute w-full top-0 left-0 h-screen bg-gray-200 z-100 backdrop:blur-2xl">
                 <ul className="grid grid-flow-row gap-2">
                     <Link href={'/post'}>
                         <button onClick={()=> setNav(false)} className="bg-blue-600 py-3 w-full text-white hover:bg-blue-700">
