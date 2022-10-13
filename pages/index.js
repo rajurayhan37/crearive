@@ -4,6 +4,8 @@ import { useEffect, useState } from 'react'
 import { db } from "../utils/firebase"
 import { collection, onSnapshot, orderBy, query } from 'firebase/firestore';
 import Link from 'next/link';
+import { toast } from "react-toastify"
+import "react-toastify/dist/ReactToastify.css"
 
 
 export default function Home() {
