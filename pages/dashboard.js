@@ -64,7 +64,7 @@ export default function Dashboard() {
                     <Message {...post} key={post.id} >
                         <div className="mt-2 flex gap-2">
                             <Link href={{ pathname: "/post", query: post }}>
-                                <button onClick={()=> editPost()} className="flex gap-2 items-center justify-center py-2 bg-blue-500 hover:bg-blue-600 px-4 rounded-lg text-white " >
+                                <button className="flex gap-2 items-center justify-center py-2 bg-blue-500 hover:bg-blue-600 px-4 rounded-lg text-white " >
                                     <AiFillEdit/>
                                     Edit
                                 </button>
